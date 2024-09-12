@@ -18,16 +18,17 @@ Mod9Challenge ERD diagram generated on https://app.quickdatabasediagrams.com/
 
 ## Database Schema Generation 
 
-- schema was generated from a sql file exported from the https://app.quickdatabasediagrams.com/ after creating the physical Mod9Challenge ERD with it.
+- Mod9Challenge_Schema sql file - schema based on the Mod9Challenge ERD  
 
-It includes the following information:
+CREATE TABLE commands for tables named as, Title, Employee, Department, Dept_Emp, Dept_Mgr, and Salary.
+
+It also includes the following information: 
 
 - Datatypes for columns defined along with constraints
-Primary keys for all 6 tables along with NOT NULL constraints
+- Primary keys for all 6 tables  
 - Foreign Keys for Dept_Emp, Dept_Mgr, Employee, Salary tables
 - Composite key for Dept_Emp table
-- NULL Constraints for specific table columns
-- All Create Table and Alter Table commands
+- NOT NULL Constraints for specific table columns
 
 ## Manual CSV Import using Postgres IMPORT/EXPORT Feature
 
